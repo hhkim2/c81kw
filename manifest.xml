@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- packages -->
+  <remote name="origin" fetch="ssh://git.humax-networks.com:29418/stb/brcm/package" review="http://git.humax-networks.com:8080"/>
+
+  <project name="busybox/1.27.2" path="packages/busybox" remote="origin" revision="binary_arm_6.3-1.2"/>
+  <project name="curl/7.44.0" path="packages/libcurl" remote="origin" revision="library_arm_6.3-1.2"/>
+  <project name="dhcp/4.1-ESV-R3" path="packages/dhcp" remote="origin" revision="binary_arm_6.3-1.2"/>
+  <project name="e2fsprogs/1.42.7" path="packages/libext2fs" remote="origin" revision="library_arm_6.3-1.2"/>
+  <project name="ecryptfs/70" path="packages/ecryptfs_utils/bin" remote="origin" revision="binary_arm_6.3-1.2"/>
+  <project name="ecryptfs/70" path="packages/ecryptfs_utils/lib" remote="origin" revision="library_arm_6.3-1.2"/>
+  <project name="ethtool/3.11" path="packages/ethtool/bin" remote="origin" revision="binary_arm_6.3-1.2"/>
+  <project name="iperf/2.0.9" path="packages/iperf" remote="origin" revision="binary_arm_6.3-1.2"/>
+  <project name="iperf/3.6.0" path="packages/iperf3" remote="origin" revision="library_arm_6.3-1.2"/>
+  <project name="iptables/1.4.21" path="packages/iptables" remote="origin" revision="library_arm_6.3-1.2"/>
+  <project name="keyutils/1.5.9" path="packages/keyutils" remote="origin" revision="library_arm_6.3-1.2"/>
+  <project name="keyutils/1.5.9" path="packages/keyutils/bin" remote="origin" revision="binary_arm_6.3-1.2"/>
+  <project name="libgcrypt/1.8.3" path="packages/libgcrypt" remote="origin" revision="library_arm_6.3-1.2"/>
+  <project name="libgpg-error/1.32" path="packages/libgpg-error" remote="origin" revision="library_arm_6.3-1.2"/>
+  <project name="libxml2/2.6.32" path="packages/libxml2" remote="origin" revision="library_arm_6.3-1.2"/>
+  <project name="openssl/1.0.2n" path="packages/openssl" remote="origin" revision="library_arm_6.3-1.2"/>
+  <project name="parted/1.8.7" path="packages/parted" remote="origin" revision="library_arm_6.3-1.2"/>
+  <project name="wpa_supplicant/2.6" path="packages/wpa_supplicant" remote="origin" revision="binary_arm_6.3-1.2"/>
+  <project name="zlib/1.2.8" path="packages/zlib" remote="origin" revision="library_arm_6.3-1.2"/>
+
+</manifest>
