@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- packages -->
-  <remote name="origin" fetch="ssh://git.humax-networks.com:29418/stb/brcm/package" review="http://git.humax-networks.com:8080"/>
+  <remote name="origin" fetch="ssh://git.humax-networks.com:29418/stb/brcm/packages" review="http://git.humax-networks.com:8080"/>
 
   <project name="busybox/1.27.2" path="packages/busybox" remote="origin" revision="binary_arm_6.3-1.2"/>
   <project name="curl/7.44.0" path="packages/libcurl" remote="origin" revision="library_arm_6.3-1.2"/>
